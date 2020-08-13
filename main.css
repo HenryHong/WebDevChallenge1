@@ -1,0 +1,325 @@
+/*Default personal Gobal formatting*/
+body {
+    margin:0; 
+}
+
+.formatting-div1{
+    width: 100%;
+    height: 1em;
+}
+
+.formatting-div2{
+    width: 100%;
+    height: 2em;
+}
+
+.formatting-div3{
+    width: 100%;
+    height: 4em;
+}
+
+.formatting-div4{
+    width: 100%;
+    height: 8em;
+}
+
+.formatting-div10{
+    width: 100%;
+    height: 100em;
+}
+
+
+/*Apply all formatting*/
+.panel-container-white{
+    background-color: white;
+}
+
+
+.panel-container-white h4{
+    letter-spacing: 10px;
+    color: #2d2d30;
+    padding-bottom: 1em;
+}
+
+
+.panel-container-white p{
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+    margin-bottom:10px;
+}
+
+
+
+.panel-container-grey{
+    background-color: #2d2d30;
+}
+
+
+.panel-container-grey h4{
+    letter-spacing: 10px;
+    color: white;
+    margin-bottom: 2em;
+}
+
+
+.panel-container-grey p{
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #bdbdbd;
+    margin-bottom:10px;
+}
+
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Nav Bar*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    font: 400 15px/1.8 Lato, sans-serif;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-family: Montserrat, sans-serif;
+  }
+
+
+#brand-logo{
+    color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+
+.dropdown-menu li a {
+    color: #000 !important;
+  }
+
+.dropdown-menu li a:hover {
+background-color: red !important;
+}  
+
+/* Intro Container*/
+.intro-images{
+    width: 100%;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+}
+
+
+/* Band Info*/
+#band-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+}
+
+#member-info-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+
+.member-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    opacity: 0.7;
+}
+
+.member-picture{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.member-info-text{
+    color: #2d2d30 !important;
+}
+
+
+
+/* Tour Dates */
+#tour-date{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px; 
+}
+
+.list-group{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.list-group-item{
+    color: #bdbdbd;
+}
+
+
+
+.location-group-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.location-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 32%;
+}
+
+.location-img{
+    width: 100%;
+    margin-bottom:1em;
+}
+
+.location-container p{
+    color: #333333;
+}
+
+/* Modal */
+
+.modal-header{
+    background-color: #333333;
+    padding: 40px 50px;
+}
+
+.modal-title{
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.modal-body p{
+    color: #bdbdbd;
+}
+
+.close{
+    color: #5b5b5b;
+    font-size: 25px;
+}
+
+.modal-body{
+    padding: 40px 50px;
+}
+
+.modal-content .form-control{
+    margin-bottom: 1em;
+}
+
+
+
+
+
+/* Contact */
+#contact-blog{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+}
+
+
+#contact-infoform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3em; 
+}
+
+#contact-form{
+    width: 70%; 
+}
+
+#contact-input-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contact_name{
+    width: 49%;
+}
+
+#contact_email{
+    width: 49%;
+}
+
+#contact-btt-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* From the blog */
+#contact-fromtheblog{
+    width: 100%;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+.tab-content div h3 {
+    color: #777;
+}
+
+.nav.nav-tabs{
+    width: 100%
+}
+
+/* Map */
+#map-img{
+    width: 100%;
+}
+
+
+
+/* Footer */
+.page-footer{
+    background-color: #2d2d30;
+    padding: 4em;
+    width: 100;
+}
+
+.page-footer .glyphicon{
+    font-size: 20px;
+    color:white;
+}
+
+
+#footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.page-footer p{
+    color: white;
+}
+

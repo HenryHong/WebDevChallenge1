@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Challenge1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body id="myPage">
+
+    <!-- Nav Bar________________________________________________________________________________________________________________________________________________________ -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><p id="brand-logo">Logo</p></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right ">
+            <li class="active"><a href="#intro-container">HOME</a></li>
+            <li><a href="#band-info">BAND</a></li>
+            <li><a href="#tour-date">TOUR</a></li>
+            <li><a href="#contact-blog">CONTACT</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Extras</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </li>
+            <li><span class="glyphicon glyphicon-search"></span></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel________________________________________________________________________________________________________________________________________________________ -->
+    <div id="intro-container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./Asset/ny.jpg" alt="New York" class="intro-images">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>The atmosphere in New York is lorem ipsum.</p>
+            </div>
+          </div>
+      
+          <div class="item">
+            <img src="./Asset/chicago.jpg" alt="Chicago" class="intro-images">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago - A night we won't forget.</p>
+            </div>
+          </div>
+    
+          <div class="item">
+            <img src="./Asset/la.jpg" alt="Los Angeles" class="intro-images">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div> 
+        
+    <!-- The Band________________________________________________________________________________________________________________________________________________________ -->
+    <div class="panel-container-white">
+      <div id="band-info" class="container">
+        <h4>THE BAND</h4>
+        <p><em>We love music!</em></p>
+        <p class="text-center">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div id="member-info-container">
+          <div class="member-container">
+            <p class="text-center member-info-text"><strong>BandMember1</strong></p>
+            <a href="#member_info1" data-toggle="collapse" class="collapsed">
+              <img src="./Asset/bandmember.jpg" alt="bandmember1" class="img-circle member-picture">
+            </a>
+            <div id="member_info1" class="collapse" style="height: 0px;">
+              <p class="text-center member-info-text">Guitarist and Lead Vocalist</p>
+              <p class="text-center member-info-text">Loves long walks on the beach</p>
+              <p class="text-center member-info-text">Member since 1988</p>
+            </div>
+          </div>
+          <div class="member-container">
+            <p class="text-center member-info-text"><strong>BandMember2</strong></p>
+            <a href="#member_info2" data-toggle="collapse" class="collapsed">
+              <img src="./Asset/bandmember.jpg" alt="bandmember2" class="img-circle member-picture">
+            </a>
+            <div id="member_info2" class="collapse" style="height: 0px;">
+              <p class="text-center member-info-text">Drummer</p>
+              <p class="text-center member-info-text">Loves drummin'</p>
+              <p class="text-center member-info-text">Member since 1988</p>
+            </div>
+          </div>
+          <div class="member-container">
+            <p class="text-center member-info-text"><strong>BandMember3</strong></p>
+            <a href="#member_info3" data-toggle="collapse" class="collapsed">
+              <img src="./Asset/bandmember.jpg" alt="bandmember2" class="img-circle member-picture">
+            </a>
+            <div id="member_info3" class="collapse" style="height: 0px;">
+              <p class="text-center member-info-text">Bass player</p>
+              <p class="text-center member-info-text">Loves math</p>
+              <p class="text-center member-info-text">Member since 2005</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tour Data________________________________________________________________________________________________________________________________________________________ -->
+    <div class="panel-container-grey">
+      <div id="tour-date" class="container">
+        <h4>TOUR DATES</h4>
+        <p class="text-center"><em>Lorem ipsum we'll play you some music.<br>Remember to book your tickets!</em><br></p>
+        <ul class="list-group">
+          <li class="list-group-item">September&nbsp;<span class="label label-danger">Sold Out!</span></li>
+          <li class="list-group-item">October&nbsp;<span class="label label-danger">Sold Out!</span></li>
+          <li class="list-group-item">November&nbsp; <span class="badge">3</span></li>
+        </ul>
+        <div class="location-group-container">
+          <div class="location-container">
+            <img src="./Asset/paris.jpg" alt="Paris" class="location-img">
+            <p><strong><em>Paris</em></strong></p>
+            <br>
+            <p>Friday 27 November 2015</p>
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+            <div class="formatting-div1"></div>
+          </div>
+          <div class="location-container">
+            <img src="./Asset/newyork.jpg" alt="New York" class="location-img">
+            <p><strong><em>New York</em></strong></p>
+            <br>
+            <p>Saturday 28 November 2015</p>
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+            <div class="formatting-div1" ></div>
+          </div>
+          <div class="location-container">
+            <img src="./Asset/sanfran.jpg" alt="San Francisco " class="location-img">
+            <p><strong><em>San Francisco</em></strong></p>
+            <br>
+            <p>Sunday 29 November 2015</p>
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+            <div class="formatting-div1"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Modal________________________________________________________________________________________________________________________________________________________ -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <!-- Modal Header-->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><span class="glyphicon glyphicon-lock"></span>&nbsp;Tickets</h2>
+            </div>
+            <!-- Modal Body-->
+            <div class="modal-body">
+              <form role="form">
+                <p><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Tickets, $23 per person</p>
+                <input type="number" class="form-control" id="ticket_num" placeholder="How many?">
+                <p><span class="glyphicon glyphicon-user"></span>&nbsp;Send To</p>
+                <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                <button type="submit" class="btn btn-block">Pay&nbsp;<span class="glyphicon glyphicon-ok"></span></button>
+              </form>
+            </div>
+            <!-- Modal Footer-->
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                <span class="glyphicon glyphicon-remove"></span> Cancel
+              </button>
+              <p>Need <a href="#">help?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Contact________________________________________________________________________________________________________________________________________________________ -->
+    <div class="panel-container-white" class="container">
+      <div id="contact-blog" class="container">
+        <h4>Contact</h4>
+        <p>We love our fans!</p>
+        <div id="contact-infoform">
+          <div>
+            <p>Fan? Drop a note.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+          </div>
+          <div id="contact-form">
+            <div id="contact-input-div">
+              <input id="contact_name" type="text" class="form-control" name="name" placeholder="Name">
+              <input id="contact_email" type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="formatting-div1"></div>
+            <textarea  id="contact_comment" class="form-control" name="comment" placeholder="Comment" rows="5"></textarea>
+            <div class="formatting-div1"></div>
+            <div id="contact-btt-div">
+              <button type="button" class="btn">Send</button>
+            </div>
+          </div>
+        </div>
+        <h4>From The Blog</h4>
+        <div id="contact-fromtheblog">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#mike-info">Mike</a></li>
+            <li><a data-toggle="tab" href="#chandler-info">Chandler</a></li>
+            <li><a data-toggle="tab" href="#peter-info">Peter</a></li>
+          </ul>
+          
+          <div class="tab-content">
+            <div id="mike-info" class="tab-pane in active">
+              <h3>Mike Ross, Manager</h3>
+              <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+            </div>
+            <div id="chandler-info" class="tab-pane fade">
+              <h3>Chandler Bing, Guitarist</h3>
+              <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+            </div>
+            <div id="peter-info" class="tab-pane fade">
+              <h3>Peter Griffin, Bass player</h3>
+              <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map________________________________________________________________________________________________________________________________________________________ -->
+    <div class="panel-container-grey">
+      <img src="./Asset/map.jpg" alt="Map" id="map-img">
+    </div>
+        
+    <!-- Footer________________________________________________________________________________________________________________________________________________________ -->
+    <footer class="page-footer">
+      <div id="footer-info">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="" data-original-title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <div class="formatting-div2"></div>
+        <p>Bootstrap Theme Made By&nbsp;<a href="https://www.w3schools.com/">www.w3schools.com</a><p>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
